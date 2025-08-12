@@ -43,15 +43,3 @@ OFFSET 2 LIMIT 2;
 SELECT*FROM books
 WHERE Publication ='ABC'
 ORDER BY Title ASC;
-
-
-
-
-
-
-
-
-
-
-
-
