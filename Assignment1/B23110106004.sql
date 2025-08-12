@@ -7,6 +7,7 @@ CREATE TABLE books(
     Price INT,
     Publication VARCHAR(80)
 );
+
 INSERT INTO books (Title, Author, Year_Published, isAvailable, Price, Publication) VALUES
 ('The Silent Code', 'Alice Monroe', 2015, TRUE, 520, 'TechWorld Press'),
 ('Beyond the Horizon', 'Liam Rivers', 2021, TRUE, 790, 'Skyline Publishing'),
@@ -42,3 +43,15 @@ OFFSET 2 LIMIT 2;
 SELECT*FROM books
 WHERE Publication ='ABC'
 ORDER BY Title ASC;
+
+
+
+
+
+
+
+
+
+
+
+
